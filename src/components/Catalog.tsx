@@ -22,9 +22,9 @@ const Catalog = ({data,name,title}:Data ): JSX.Element =>{
                 {data.map(el=>{
                     return (
                         <div className={`${name}__catalog-item`}>
-                            <img src={el.img} alt={el.title} />
+                            <img className={`${name}__catalog-img`} src={el.img} alt={el.title} />
                             <h4 className={`${name}__catalog-title`}>{el.title}</h4>
-                            <p className={`${name}__catalog-title`}> £{el.price}</p>
+                            <p className={`${name}__catalog-price`}> £{el.price}</p>
                         </div>
                     )
                 })}
