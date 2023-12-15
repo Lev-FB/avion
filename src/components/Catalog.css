@@ -1,0 +1,18 @@
+.new , .popular {
+display: flex;justify-content: center;
+}
+
+
+.popular__catalog , .new__catalog{
+
+
+    display: flex;
+    gap:20px;
+
+}
+
+
+
+.popular__title,.new__title {
+    margin-bottom: 33px;
+}
