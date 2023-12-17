@@ -1,0 +1,83 @@
+/* Добавление стилей для .about-form с использованием комбинированных селекторов */
+.main-form,
+.about-form {
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: Satoshi;
+}
+
+.main-form__wrapper,
+.about-form__wrapper {
+    padding: 60px 300px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    background: #e0dfdf;
+
+}
+
+.main-form__title,
+.about-form__title {
+    font-family: "Clash Display";
+    font-size: 36px;
+    margin: 0px;
+}
+
+.main-form__text,
+.about-form__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+.main-form__subtitle,
+.about-form__subtitle {
+    max-width: 474px;
+}
+
+.main-form__submit,
+.about-form__submit {
+    padding: 16px 32px;
+    background: #2A254B;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-form__input,
+.about-form__input {
+    background: #ffffff;
+    padding: 17px 205px 17px 32px;
+    font-size: 16px;
+    color: #2A254B;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-form__checkbox-wrapper {
+    display: flex;
+    gap: 10px;
+
+}
+
+.main-form__form,
+.about-form__form {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.main-form__input:focus,
+.about-form__input:focus {
+    transform: scale(1.05);
+}
+.main-form__input:hover,
+.about-form__input:hover {
+    transform: scale(1.05);
+}
+
+.main-form__submit:hover,
+.about-form__submit:hover {
+    transform: scale(1.05);
+}

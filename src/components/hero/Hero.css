@@ -1,0 +1,40 @@
+.hero {
+    font-family: Satoshi;
+    color: white;
+    background:  #2A254B;
+    display: flex;
+    gap: 100px;
+    padding-left: 60px;
+
+}
+
+.hero__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 41px;
+}
+
+.hero__title {
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%
+}
+
+.hero__subtitle-wrapper {
+    min-width: 602px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.hero__description {
+    padding-right: 100px;
+    display: flex;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 136px;
+    max-width: 512px;
+
+}

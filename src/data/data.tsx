@@ -9,6 +9,7 @@ interface ObjectData {
     img: string,
     title: string,
     price: number
+    path:string
 }
 
 interface Data {
@@ -18,15 +19,15 @@ interface Data {
 
 const data:Data = {
     newProducts:[
-        { img: chair, title: 'The Dandy chair', price: 250 },
-        { img: vase, title: 'Rustic Vase Set', price: 250 },
-        { img: silkiVase, title: 'The Silky Vase', price: 250 },
-       { img: lamp, title: 'The Lucy Lamp', price: 250 },
+        { img: chair, title: 'The Dandy chair', price: 250,path:'/Product/chair' },
+        { img: vase, title: 'Rustic Vase Set', price: 250 ,path:'/Product/vase'},
+        { img: silkiVase, title: 'The Silky Vase', price: 250 ,path:'/Product/silkiVase'},
+       { img: lamp, title: 'The Lucy Lamp', price: 250,path:'/Product/lamp' },
     ],
     popularProducts:[
-        { img:sofa, title: 'The Poplar suede sofa', price: 250 },
-        { img: chair, title: 'The Dandy chair', price: 250 },
-        { img: grayChair, title: 'The Dandy gray chair', price: 250 },
+        { img:sofa, title: 'The Poplar suede sofa', price: 250,path:'/Product/sofa'},
+        { img: chair, title: 'The Dandy chair', price: 250,path:'/Product/chair' },
+        { img: grayChair, title: 'The Dandy gray chair', price: 250,path:'/Product/grayChair' },
     ]
 
 }
