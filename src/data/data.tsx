@@ -8,7 +8,7 @@ import vase from './images/vase.png'
 interface ObjectData {
     img: string,
     title: string,
-    price: number
+    price: number,
     path:string
 }
 
