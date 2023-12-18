@@ -1,0 +1,16 @@
+
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.about-title__title {
+    max-width: 704px;
+    color: #2A254B;
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 36px;
+}

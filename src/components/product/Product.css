@@ -1,0 +1,51 @@
+.product__title-wrapper {
+    font-family: "Clash Display";
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__catalog-img-wrapper {
+    overflow: hidden;
+}
+
+.product__catalog-title {
+    font-family: "Clash Display";
+    color:  #2A254B;
+    transition: all 0.3s ease-in-out;
+}
+
+.product__catalog-link {
+    margin: 10px;
+    display: block;
+}
+
+.product__catalog-img {
+    transition:all 0.2s ease-in-out ;
+}
+
+.product__catalog-link:hover .product__catalog-title {
+    color: #4b34b9;
+}
+
+.product__catalog-link:hover .product__catalog-img  {
+    transform: scale(1.1);
+}
+
+.product__catalog {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.product__title {
+    font-size: 36px;
+}
+
+.product__catalog-wrapper {
+    display: flex;
+    justify-content: center;
+}
