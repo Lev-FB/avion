@@ -7,8 +7,8 @@ interface Routes {
     'Cart':string
 }
 const Navigation = () =>{
-  const listItems:string[] = ['Home','Chairs','About us','Cart']
-    const routes :Routes = {'Home':'','Chairs':'Chairs','About us':'About','Cart':'Cart'}
+  const listItems:string[] = ['Home','Products','About us','Cart']
+    const routes :Routes = {'Home':'','Products':'Products','About us':'About','Cart':'Cart'}
   return (
       <header>
           <div className="header__wrapper">

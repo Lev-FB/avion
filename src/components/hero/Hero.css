@@ -3,9 +3,15 @@
     color: white;
     background:  #2A254B;
     display: flex;
+    justify-content: center;
     gap: 100px;
     padding-left: 60px;
 
+}
+
+.hero__wrapper {
+    display: flex;
+    gap: 100px;
 }
 
 .hero__title-wrapper {

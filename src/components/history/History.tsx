@@ -16,10 +16,10 @@ const History =() =>{
                        <p className="history_description">When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
                        <p className="history_description">Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
                    </div>
-                <Link to="/Chairs" className="history__link">Get in touch</Link>
+                <Link to="/Products" className="history__link">Get in touch</Link>
             </div>
             <div className="history__img-wrapper">
-                <img className="history__im" src={historyImg} alt={historyImg}/>
+                <img className="history__img" src={historyImg} alt={historyImg}/>
             </div>
         </div>
     )

@@ -34,7 +34,7 @@
 .header__list {
     display: flex;
     justify-content: center;
-
+    color:  #2A254B;
     padding-right: 40px;
     padding-left: 40px;
     gap: 60px;

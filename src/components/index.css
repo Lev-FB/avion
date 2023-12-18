@@ -55,11 +55,15 @@ ul {
   list-style: none;
 }
 
+header,main{
+  max-width: 1440px;
+
+}
+
 
 #root {
   max-width: 1440px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
