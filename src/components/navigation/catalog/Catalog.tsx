@@ -36,7 +36,7 @@ const Catalog = ({data,name,title}:Data ) =>{
                     )
                 })}
             </div>
-            <Link to="/Chairs">
+            <Link to="/Products">
                 <BtnViewCollection nameForClass={name}/>
             </Link>
 

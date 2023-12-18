@@ -71,13 +71,16 @@
 .main-form__input:focus,
 .about-form__input:focus {
     transform: scale(1.05);
+    transform-origin: 50% 0;
 }
 .main-form__input:hover,
 .about-form__input:hover {
     transform: scale(1.05);
+    transform-origin: 50% 0;
 }
 
 .main-form__submit:hover,
 .about-form__submit:hover {
     transform: scale(1.05);
+    transform-origin: 50% 0;
 }

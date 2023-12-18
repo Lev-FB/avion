@@ -15,7 +15,9 @@ transition: all 0.3s ease-in-out;
     justify-content: center;
 }
 .button-wrapper__view-collection:hover {
-    transform: scale(1.02);
-    background-color: #cecece
-    
+    backface-visibility: hidden;
+    transform-origin: 50% 0;
+    transform: scale(1.048);
+    background-color: #d2d2d2
+
 }

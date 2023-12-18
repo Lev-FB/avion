@@ -8,7 +8,7 @@
 
 .history__title{
     font-family: Clash Display;
-font-size: 24px;
+    font-size: 24px;
 }
 
 .history__link {
@@ -19,6 +19,8 @@ font-size: 24px;
 
 .history__link:hover {
     transform: scale(1.05);
+    transform-origin: 50% 0;
+    background-color: #d2d2d2
 }
 
 
@@ -27,9 +29,8 @@ font-size: 24px;
 }  
 
 .history__text-wrapper {
-    margin-top: 72px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 196px;
+    gap: 136px;
 }
