@@ -1,0 +1,43 @@
+.history ,.about-us,.about-history{
+    display: flex;
+    gap: 122px;
+    color: #2A254B;
+    font-family: Satoshi;
+    font-size: 16px;
+}
+
+
+.about-us {
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+
+.history__title,.about-history__title,.about-us__title{
+    font-family: Clash Display;
+    font-size: 24px;
+}
+
+.history__link,.about-us__link,.about-history__link{
+    padding: 16px 32px;
+    background: #e0dfdf;
+    transition: all 0.3s ease-in-out;
+}
+
+.history__link:hover ,.about-us__link:hover,.about-history__link:hover{
+    transform: scale(1.05);
+    transform-origin: 50% 0;
+    background-color: #d2d2d2
+}
+
+
+.history__text,.about-us__text ,.about-history__text{
+    max-width: 514px;
+}  
+
+.history__text-wrapper,.about-us__text-wrapper ,.about-history__text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 136px;
+}
