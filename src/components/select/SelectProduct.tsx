@@ -76,7 +76,7 @@ const SelectProduct = () => {
                         </div>
                         <div className="selected-product__button-wrapper">
                             <button onClick={(e)=>{
-                                if(selected[0].quantity>0&&selected[0].quantity>1&&selected[0].quantity<=20) {
+                                if(selected[0].quantity>0&&selected[0].quantity>=1&&selected[0].quantity<=20) {
                                     dispatch(addThing(...selected))
                                 }
                             }} className="selected-product__button">Add to cart</button>
