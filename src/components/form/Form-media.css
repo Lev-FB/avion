@@ -1,0 +1,137 @@
+@media screen and (max-width: 1400px){
+    .main-form,
+    .about-form {
+        max-width: 1100px;
+    }
+}
+@media screen and (max-width: 1280px){
+
+
+
+
+    .main-form__wrapper,
+    .about-form__wrapper {
+        padding: 60px 200px;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+
+
+    .main-form__wrapper,
+    .about-form__wrapper {
+        padding: 60px 100px;
+        gap: 30px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px){
+
+    .main-form__input:focus,
+    .about-form__input:focus {
+        transform: perspective(2px) scale(1.02);
+        transform-origin: 50% 0;
+    }
+    .main-form__input:hover,
+    .about-form__input:hover {
+        transform: perspective(2px) scale(1.02);
+        transform-origin: 50% 0;
+    }
+
+    .main-form__submit:hover,
+    .about-form__submit:hover {
+        transform: perspective(2px) scale(1.02);
+        transform-origin: 50% 0;
+    }
+
+    .main-form__submit,
+    .about-form__submit {
+        padding: 14px 24px;
+    }
+
+    .main-form__wrapper,
+    .about-form__wrapper {
+        padding: 60px 50px;
+        gap: 30px;
+    }
+    .main-form__title,
+    .about-form__title {
+        font-size: 30px;
+    }
+
+    .main-form__subtitle,
+    .about-form__subtitle {
+        font-size: 15px;
+    }
+
+
+    .main-form__input,
+    .about-form__input {
+        padding: 14px 155px 14px 32px;
+        font-size: 16px;
+        color: #2A254B;
+        transition: all 0.3s ease-in-out;
+    }
+
+}
+@media screen and (max-width: 650px){
+    .main-form__text, .about-form__text{
+        gap:0px;
+    }
+    .main-form__wrapper,
+    .about-form__wrapper {
+        padding: 60px 50px;
+        gap: 20px;
+    }
+    .main-form__title,
+    .about-form__title {
+        font-size: 25px;
+    }
+    .main-form__subtitle,
+    .about-form__subtitle {
+        font-size: 13px;
+        max-width: 345px;
+    }
+    .main-form__input,
+    .about-form__input {
+        padding: 17px 85px 17px 32px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+
+    .main-form__wrapper,
+    .about-form__wrapper {
+        padding: 40px 10px;
+        gap: 20px;
+    }
+    .main-form__title,
+    .about-form__title {
+        font-size: 20px;
+    }
+
+    .main-form__subtitle,
+    .about-form__subtitle {
+        font-size: 12px;
+        max-width: 345px;
+    }
+
+
+    .main-form__input,
+    .about-form__input {
+        padding: 15px 60px 15px 32px;
+    }
+
+}
+
+
+
+
+
+
