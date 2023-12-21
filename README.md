@@ -1,2 +1,4 @@
-npm i 
-npm run dev
+Установите:
+1.npm i 
+2.npm run dev
+
