@@ -11,6 +11,9 @@
     font-weight: 400;
     color: #2A254B;
 }
+.cart__table-wrapper {
+    min-height: 500px;
+}
 .cart__btn-delete,.cart__btn-add {
     font-size: 30px;
     color: black;
