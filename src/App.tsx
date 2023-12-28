@@ -9,16 +9,6 @@ import SelectProductPage from "./pages/SelectProductPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
-    interface Test {
-        number:number,
-        [key:number]:number,
-        id:number|string
-    }
-    const obj:Test = {
-        number:3,
-        23:45,
-        id:'3-42-fdveasghd-34-bgbbb-f'
-    }
     return (
     <>
         <Navigation/>
